@@ -169,7 +169,7 @@ this.options.datacommit = false
               "options": [
                 {
                   "label": "男",
-                  "coding": "1"
+                  "coding": "3"
                 },
                 {
                   "label": "女",
@@ -177,10 +177,10 @@ this.options.datacommit = false
                 },
                 {
                   "label": "どちらでもない",
-                  "coding": "3"
+                  "coding": "1"
                 }
               ],
-              "name": ""
+              "name": "gender"
             }
           ],
           "scrollTop": true,
