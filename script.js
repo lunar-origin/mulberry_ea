@@ -163,6 +163,41 @@ this.options.datacommit = false
           "type": "lab.html.Page",
           "items": [
             {
+              "required": true,
+              "type": "radio",
+              "label": "性別についてあてはまるものをクリックしてください。",
+              "options": [
+                {
+                  "label": "男",
+                  "coding": "1"
+                },
+                {
+                  "label": "女",
+                  "coding": "2"
+                },
+                {
+                  "label": "どちらでもない",
+                  "coding": "3"
+                }
+              ],
+              "name": ""
+            }
+          ],
+          "scrollTop": true,
+          "submitButtonText": "次へ →",
+          "submitButtonPosition": "right",
+          "files": {},
+          "responses": {
+            "": ""
+          },
+          "parameters": {},
+          "messageHandlers": {},
+          "title": "gender"
+        },
+        {
+          "type": "lab.html.Page",
+          "items": [
+            {
               "type": "text",
               "title": "はじめに",
               "content": "はじめに,  次の画面に表示される短い記事を読んで頂きます。\n実験の最後に, 記事の内容について簡単なアンケートを実施しますので, 書かれている内容をイメージしながらよく読んでください。（「次へ」ボタン）"
